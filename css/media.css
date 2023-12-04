@@ -1,0 +1,242 @@
+/*Extra small devices (portrait phones, less than 576px*/
+@media (max-width: 575.98px) {
+/*header start*/
+header{
+	padding: 10px 0;
+}
+.menu ul li a{
+	padding:10px 0  0 !important;
+	font-size: 20px;
+	text-align: right;
+}
+/*slider start*/
+.slider{
+	padding-bottom: 60px;
+}
+.c-ind{
+	bottom: -60px;
+}
+.c-ind [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:teal;
+}
+.s-text{
+	margin-top:0;
+}
+.s-text h1{
+    font-size: 25px;
+}
+.s-text h2{
+	margin: 12px 0;
+    font-size: 18px;
+}
+.s-text p{
+	margin-bottom: 20px;
+}
+.s-icon ul li{
+	margin-right:15px !important;
+}
+.s-icon ul li i{
+	font-size: 35px;
+}
+.feature{
+	padding: 50px 0 70px;
+}
+.f-h1{
+
+    font-size: 28px;
+}
+.f-item{
+	margin-top: 30px;
+}
+.f-text{
+	text-align: center;
+}
+.f-icon i{
+	font-size: 35px;
+}
+.f-text h2{
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.f-text p{
+	letter-spacing: 0;
+}
+/*contact*/
+.c-form {
+    padding: 40px 0 40px;
+}
+.c-submit{
+	height: 45px;
+}
+.c-input{
+	padding: 10px 10px;
+	height: 45px;
+}
+.c-icon ul li{
+	margin-right: 20px !important;
+}
+.c-icon ul li i{
+	font-size: 35px;
+}
+/*footer start*/
+.f-1{
+	text-align: center;
+	
+}
+.f-2{
+	margin-top: 30px;
+    text-align: center;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+
+.menu ul li a{
+	padding:10px 0  0 !important;
+	font-size: 20px;
+	text-align: right;
+}
+/*slider start*/
+.slider{
+	padding-bottom: 60px;
+}
+.c-ind{
+	bottom: -55px;
+}
+.c-ind [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:teal;
+}
+.s-text{
+	margin-top:0;
+}
+.s-text h1{
+    font-size: 25px;
+}
+.s-text h2{
+	margin: 12px 0;
+    font-size: 18px;
+}
+.s-text p{
+	margin-bottom: 20px;
+}
+.s-icon ul li{
+	margin-right:20px !important;
+}
+.s-icon ul li i{
+	font-size: 35px;
+}
+/*feature start*/
+.feature{
+	padding: 50px 0 70px;
+}
+.f-h1{
+
+    font-size: 28px;
+}
+.f-h1{
+	margin-bottom: 10px;
+    font-size: 25px;
+
+}
+.f-p{
+	padding: 10px 0 20px;
+	font-size: 17px;
+	line-height: 25px;
+}
+.f-item{
+	margin-top: 30px;
+}
+.f-text{
+	text-align: center;
+}
+.f-icon i{
+	font-size: 35px;
+}
+
+.f-text h2{
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.f-text p{
+	letter-spacing: 0;
+}
+/*contact*/
+.c-form {
+    padding: 40px 0 40px;
+}
+.c-submit{
+	height: 45px;
+}
+.c-input{
+	padding: 10px 10px;
+	height: 45px;
+}
+.c-icon ul li{
+	margin-right: 25px !important;
+}
+.c-icon ul li i{
+	font-size: 40px;
+}
+/*footer start*/
+.f-1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.f-2{
+
+	text-align: center;
+}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a{
+	padding:10px 0  0 !important;
+	text-align: right;
+}
+/*feature start*/
+.feature{
+	padding: 80px 0 100px;
+}
+.f-item{
+	margin-top: 50px;
+}
+.c-form {
+    padding: 30px 0 40px;
+}
+/*footer start*/
+footer{
+	padding-bottom:100px ;
+}
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+/*Extra large devices (extra large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+
+
+/*Extra Extra large devices (Extra large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+.box{
+	background-color: black;
+}
+
+}
